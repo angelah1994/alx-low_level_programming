@@ -5,16 +5,15 @@
 /**
  *main prints a text according number
  *number stored in the variable n
- * Return: Always 0 (Success)
+ * Return: Always 0 (Sucess)
  */
 int main(void)
 {
-
 	int n;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	printf("Last digit of %d is %d ", n, n % 10);
+	printf("last digit of %d is %d ", n, n % 10);
 	if (n % 10 > 5)
 		printf("and is greater than 5\n");
 	else if (n % 10 == 0)
