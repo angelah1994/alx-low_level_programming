@@ -4,10 +4,10 @@
 /**
  * main -Entry point of the program
  *
- * Return: print 1 if the problem is a sucess
+ * Return: print 1 if the program is a success
  */
 int main(void)
 {
-	write(2, "and that piece of art isuseful\" -Dora korpar, 2015-10-19\n", 59);
-	return(1);
+	write(2, "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n", 59);
+	return (1);
 }
