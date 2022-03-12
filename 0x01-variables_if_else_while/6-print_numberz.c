@@ -2,19 +2,17 @@
 
 /**
  * main - Prints the numbers since 0 to 9
- *
- * Return: Always (Success)
+ * followed by a new line
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
 	int n;
 
-	for (n = '0'; n<= '9'; n++)
+	for (n = 48; n < 58; n++)
 	{
 		putchar(n);
 	}
-
 	putchar('\n');
-
 	return (0);
 }
