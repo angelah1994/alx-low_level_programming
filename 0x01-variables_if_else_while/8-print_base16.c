@@ -5,21 +5,21 @@
  *
  * Return: Always (Success)
  */
-int main(voi)
+int main(void)
 {
-	char c;
+	int n;
+	char letter;
 
-	for (c = '0'; c <= '9'; c++)
+	for (n = 48; n <58; n++)
 	{
-		putchar(c);
+		putchar(n);
 	}
-
-	for (c ='a'; c <= 'f'; c++)
+	for (letters = 'a'; letters <= 'f'; letters++)
 	{
-		putchar(c);
+		putchar(letters);
 	}
-
-	putchar('\n')
-
-		return (0);
+	putchar('\n');
+	return (0);
 }
+
+
