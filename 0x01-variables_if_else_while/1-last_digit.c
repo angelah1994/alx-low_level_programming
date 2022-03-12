@@ -4,8 +4,8 @@
 
 /**
  *main prints a text according number
- *
- * Return: Always(Success)
+ *number stored in the variable n
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
