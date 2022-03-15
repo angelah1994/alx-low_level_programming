@@ -1,3 +1,8 @@
+/*
+ * File: 1-alphabet.c
+ * Auth: Angelah Wafula
+ *
+ */
 #include "main.h"
 
 /**
