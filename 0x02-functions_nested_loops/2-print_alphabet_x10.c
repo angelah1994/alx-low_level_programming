@@ -1,12 +1,13 @@
 #include "main.h"
 
 /**
- * prints_alphabet_x10 -check main.h
- * description:Function uses _putchar function to print
+ * print_alphabet_x10 - Check main.h
+ * Description: function uses _putchar function to print
  * alphabet in lowercase 10 times
- * Return: nothing
+ * Return: Nothing
  */
- void print_alphabet_x10(void)
+
+void print_alphabet_x10(void)
 {
 	char i;
 	int j;
