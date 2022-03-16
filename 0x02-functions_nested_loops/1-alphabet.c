@@ -1,13 +1,9 @@
-/*
- * File: 1-alphabet.c
- * Auth: Angelah Wafula
- *
- */
+
 #include "main.h"
 
 /**
  * main - check the code
- *
+ *Description: returns the alphabet in lower case followed by new line
  * Return: Always 0.
  */
 void print_alphabet(void)
