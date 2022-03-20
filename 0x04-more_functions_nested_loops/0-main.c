@@ -4,7 +4,7 @@
 /**
  * main - check the code
  *
- * Return: Always 0.
+ * Return: Always 0.i
  */
 int main(void)
 {
@@ -13,6 +13,6 @@ int main(void)
 	c = 'A';
 	printf("%c: %d\n", c, _isupper(c));
 	c = 'a';
-	printf("%c: %d\n", c, _isupper(c));
+	printf("%c: %d\n", c, isupper(c));
 	return (0);
 }
